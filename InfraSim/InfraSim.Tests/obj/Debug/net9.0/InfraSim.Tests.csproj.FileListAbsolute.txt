@@ -108,3 +108,5 @@ C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSi
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.exe
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.dll
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.pdb
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\Moq.dll

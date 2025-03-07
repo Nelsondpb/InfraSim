@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfraSim.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c70392fffcc584f094fb4594d58eddc4b9d0e47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8074b9e33981d25091d47c40d7cd4ff996389921")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfraSim.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfraSim.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
