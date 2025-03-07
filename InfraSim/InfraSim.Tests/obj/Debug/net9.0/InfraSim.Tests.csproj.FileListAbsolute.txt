@@ -97,3 +97,14 @@ C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\obj\Debug\net9.0\refint\
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\obj\Debug\net9.0\InfraSim.Tests.pdb
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\obj\Debug\net9.0\InfraSim.Tests.genruntimeconfig.cache
 C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\obj\Debug\net9.0\ref\InfraSim.Tests.dll
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_InfraSim.Tests
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_InfraSim.Tests
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.deps.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.runtimeconfig.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\appsettings.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.staticwebassets.runtime.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.staticwebassets.endpoints.json
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.exe
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.dll
+C:\Users\Nite\Desktop\PA Aula 3\InfraSim\InfraSim.Tests\bin\Debug\net9.0\InfraSim.pdb
