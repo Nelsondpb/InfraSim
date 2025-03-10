@@ -1,0 +1,51 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using InfraSim.Services
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<div class="main-container">
+    <div class="control-panel">
+        <Users UserCount="Counter" />
+        <Actions StartPressed="StartIncrementing" AddServerPressed="AddServer" />
+    </div>
+    <div class="servers-panel">
+        @for (int i = 0; i < ServerCount; i++)
+        {
+            <Server />
+        }
+    </div>
+</div>
+
+@code {
+    private UserCounter userCounter = new UserCounter();
+    private int Counter => userCounter.Counter;
+    private int ServerCount { get; set; } = 0;
+
+    protected override void OnInitialized()
+    {
+        userCounter.OnCounterChanged += UpdateUI;
+    }
+
+    private async Task StartIncrementing()
+    {
+        await userCounter.StartIncrementing();
+    }
+
+    private void UpdateUI()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        userCounter.OnCounterChanged -= UpdateUI;
+    }
+
+    private void AddServer()
+    {
+        ServerCount++;
+    }
+}
