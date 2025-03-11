@@ -41,5 +41,22 @@ namespace InfraSim.Tests
             mockServer2.Verify(s => s.HandleRequests(33), Times.Once);
             mockServer3.Verify(s => s.HandleRequests(33), Times.Once);
         }
+        [Fact]
+        public void TestObtainServers_ShouldReturnCorrectServers()
+        {
+            var mockServer1 = new Mock<IServer>();
+            var mockServer2 = new Mock<IServer>();
+            var mockServer3 = new Mock<IServer>();
+
+            var servers = new List<IServer> { mockServer1.Object, mockServer2.Object, mockServer3.Object };
+            var trafficRouting = new TrafficRouting(servers);
+
+            var obtainedServers = trafficRouting.ObtainServers();
+
+            Assert.Equal(3, obtainedServers.Count);
+            Assert.Contains(mockServer1.Object, obtainedServers);
+            Assert.Contains(mockServer2.Object, obtainedServers);
+            Assert.Contains(mockServer3.Object, obtainedServers);
+        }
     }
 }
