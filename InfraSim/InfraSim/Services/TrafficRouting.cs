@@ -16,7 +16,17 @@ namespace InfraSim.Services
 
         public abstract List<IServer> ObtainServers();
 
-        public abstract void SendRequestsToServers(int requests, List<IServer> servers);
+        public void SendRequestsToServers(int requests, List<IServer> servers)
+        {
+            int requestsPerServer = requests / servers.Count;
+            int remainder = requests % servers.Count;
+
+            for (int i = 0; i < servers.Count; i++)
+            {
+                int requestsToHandle = requestsPerServer + (i < remainder ? 1 : 0);
+                servers[i].HandleRequests(requestsToHandle);
+            }
+        }
 
         public void RouteTraffic(int requestsCount)
         {
