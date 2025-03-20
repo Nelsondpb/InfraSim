@@ -9,7 +9,7 @@ namespace InfraSim.Tests
     public class CacheTrafficRoutingTests
     {
         [Fact]
-        public void TestCacheRequestCount_ShouldReturnOneThirdOfRequests()
+        public void TestCacheRequestCount_ShouldReturn80PercentOfRemainingRequests()
         {
             var mockServer1 = new Mock<IServer>();
             var mockServer2 = new Mock<IServer>();
@@ -22,7 +22,7 @@ namespace InfraSim.Tests
 
             int requests = cacheTrafficRouting.CalculateRequests(100);
 
-            Assert.Equal(33, requests); 
+            Assert.Equal(80, requests);
         }
 
         [Fact]

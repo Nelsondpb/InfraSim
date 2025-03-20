@@ -12,7 +12,7 @@ namespace InfraSim.Services
 
         public override int CalculateRequests(int requestsCount)
         {
-            return requestsCount / 2;
+            return (int)(requestsCount * 0.7);
         }
 
         public override List<IServer> ObtainServers()

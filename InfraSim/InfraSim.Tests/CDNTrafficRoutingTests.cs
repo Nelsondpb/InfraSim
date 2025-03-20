@@ -9,7 +9,7 @@ namespace InfraSim.Tests
     public class CDNTrafficRoutingTests
     {
         [Fact]
-        public void TestCDNRequestCount_ShouldReturnHalfOfRequests()
+        public void TestCDNRequestCount_ShouldReturn70PercentOfRequests()
         {
             var mockServer1 = new Mock<IServer>();
             var mockServer2 = new Mock<IServer>();
@@ -22,7 +22,7 @@ namespace InfraSim.Tests
 
             int requests = cdnTrafficRouting.CalculateRequests(100);
 
-            Assert.Equal(50, requests);
+            Assert.Equal(70, requests);
         }
 
         [Fact]
