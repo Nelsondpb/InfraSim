@@ -7,4 +7,4 @@ namespace InfraSim.Models
         public override long MaximumRequests => _capability.MaximumRequests + 1000;
         public override int Cost => _capability.Cost + 50000;
     }
-}
+}   
